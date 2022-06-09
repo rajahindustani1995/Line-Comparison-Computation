@@ -9,7 +9,8 @@
             lineModel.LineMeasuring();
             EqualityOfLength line = new EqualityOfLength();
             line.TwoLineEquality();
-
+            CompareTwoLineLength compare = new CompareTwoLineLengths();
+            compare.TwoLineCompare();
         }
     }
 }
